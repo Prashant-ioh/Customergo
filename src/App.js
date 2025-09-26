@@ -4,6 +4,7 @@ import Login from "./Login/Login";
 import Layout from "./Layout/Layout";
 import Dashboard from "./Dashboard/Dashboard";
 import Products from "./Products/Products";
+import Billing from "./Billing/Billing";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/billing" element={<Billing />} />
         </Route>
       </Routes>
     </Router>
