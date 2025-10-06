@@ -48,7 +48,7 @@ const Reports = () => {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <Bar dataKey="sales" fill="#f97316" barSize={40} radius={[6, 6, 0, 0]} />
+            <Bar dataKey="sales" fill="#f16e0fff" barSize={40} radius={[6, 6, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>
