@@ -4,11 +4,11 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 
 const Reports = () => {
   const [salesData] = useState([
-    // { name: "Jan", sales: 40 },
-    // { name: "Feb", sales: 35 },
-    // { name: "Mar", sales: 50 },
-    // { name: "Apr", sales: 45 },
-    // { name: "May", sales: 70 },
+    { name: "Jan", sales: 40 },
+    { name: "Feb", sales: 35 },
+    { name: "Mar", sales: 50 },
+    { name: "Apr", sales: 45 },
+    { name: "May", sales: 70 },
     { name: "Jun", sales: 60 },
     { name: "Jul", sales: 55 },
   ]);
