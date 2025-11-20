@@ -40,7 +40,7 @@ const Reports = () => {
       </div>
 
       {/* Sales Chart */}
-      <div className="card">
+      {/* <div className="card">
         <h3>Sales</h3>
         <ResponsiveContainer width="100%" height={250}>
           <BarChart data={salesData}>
@@ -51,7 +51,7 @@ const Reports = () => {
             <Bar dataKey="sales" fill="#f16e0fff" barSize={40} radius={[6, 6, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
-      </div>
+      </div> */}
 
       {/* Top-Selling Products */}
       <div className="card">
